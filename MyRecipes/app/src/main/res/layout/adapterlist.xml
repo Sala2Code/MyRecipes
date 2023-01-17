@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/red"
+    android:layout_margin="25dp"
+    android:id="@+id/layoutButtonList">
+
+
+    <ImageView
+        android:id="@+id/imgRecList"
+        android:src="@drawable/noimg"
+        android:layout_gravity="center_vertical"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="15dp"
+        >
+
+        <TextView
+            android:id="@+id/titleRecList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POULET AUX OIGNONS"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:lines="1"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <TextView
+                android:id="@+id/timeRecList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X min"
+                android:textSize="17dp"
+                android:lines="1"
+                android:layout_marginRight="10dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/persRecList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X personnes"
+                android:textSize="17dp"
+                android:lines="1"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
